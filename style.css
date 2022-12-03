@@ -1,0 +1,19 @@
+:root {
+    --yellow-color: #FFF73A;
+    --light-grey: #F7F7F7;
+    --white: #FFFFFF;
+    --black: #000000;
+    --grey-background: #D2D6DB;
+    --dark-grey: #505356;
+}
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.h2 {
+    font-family:;
+}
