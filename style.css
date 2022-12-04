@@ -8,6 +8,7 @@
 
 }
 
+
 :root {
     --yellow-color: #FFF73A;
     --light-grey: #F7F7F7;
@@ -21,50 +22,51 @@
 *::before {
     box-sizing: border-box;
 }
-body{
-    margin: 0;
-}
-.container-header {
-    max-width: 1414px;
-    margin: 0 auto;
-
-   
-}
 body {
-    margin:0;
+    margin: 0;
     width: 1440px;
    
 }
 body {
     max-width: 1440px;
-    background-image: url(Images/Desktop\ -\ 1-2.png);
+    /* background-image: url(Images/Desktop\ -\ 1-2.png); */
     background-position:inherit;
     background-size: 1440px;
     padding-right:5%;
     box-sizing: border-box;
     position:relative;
+    
 }
+.graphic-rectangle {
+position: absolute;
+width: 756px;
+height: 1034px;
+left: 0px;
+top: 0px;
+background: rgba(217, 217, 217, 0.2);
+}
+
+.graphic-rectangle-left{
+position: absolute;
+width: 157px;
+height: 661px;
+left: 0px;
+top: 366px;
+background:#FFFFFF
+}
+
+.graphic-rectangle-right {
+position: absolute;
+width: 107px;
+height: 870px;
+left: 1333px;
+top: 0px;
+background: #F7F7F7;
+}
+
 body {
 position: relative;
 width: 1440px;
-}
-.logo {
-position: absolute;
-width: 349px;
-height: 90px;
-left: 119px;
-top: 39px;
-}
-.wrapper {
-    flex: 1;
-    text-align: right;
-    
-}
-.wrapper {
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-    font-family: 'Amiko', sans-serif;
 }
 .btn {
 position: absolute;
@@ -93,16 +95,31 @@ top: 439px;
 
 background: url(pexels-alexander-krivitskiy-1572878.jpg);
 }
-.right {
-    position: absolute;
+/* .right {
+position: absolute;
 width: 547px;
 height: 717px;
 left: 756px;
+border: 2px solid red;
 top: 153px;
+background-color: red;
+overflow: auto;
 
 background: url(woman-on-the-grey-wall-background-2022-02-09-23-17-44-utc.jpg);
 
+} */
+
+.right {
+    width: 547px;
+    height: 717px;
+    background: url(./Images/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 756px;
+    top: 153px;
+    z-index: -99;
 }
+
 .white-background {
     position: absolute;
     width: 542px;
@@ -143,16 +160,6 @@ line-height: 153px;
 color: #000000;
 } 
 .white {
-    position: absolute;
-    width: 736px;
-    height: 172px;
-    left: 735px;
-    top: 232px;
-    font-family: 'Big Shoulders Inline Text';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 128px;
-    line-height: 153px;
     color: #FFFFFF;
 }
 p{
@@ -161,13 +168,11 @@ p{
     height: 132px;
     left: 227px;
     top: 380px;
-    
     font-family: 'Andada Pro', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    
     color: #000000;
 }
 .btn-light{
@@ -178,7 +183,7 @@ left: 259px;
 top: 528px;
 font-family: 'Anek Gujarati', sans-serif;
 font-style: normal;
-font-weight: 400;
+font-weight: 400px;
 font-size: 24px;
 line-height: 36px;
 text-align: center;
@@ -186,8 +191,16 @@ color: rgba(0, 0, 0, 1);
 }
 .btn-light {
     background-color: #FFF73A;
-
+        border-radius: 20px;
+        padding: 20px; 
+        width: 200px;
+        height: 70px; 
 }
+.btn-light:hover {
+    background-color: rgba(154, 156, 158, 1);
+    color: white;
+}
+
 .dotted-pic {
 position: absolute;
 width: 93px;
@@ -195,7 +208,6 @@ height: 95px;
 left: 149px;
 top: 120px;
 }
-
 
 .nav a {
     color: rgba(96, 96, 96, 1);
@@ -213,15 +225,44 @@ top: 120px;
     left: 611px;
     top: 683px; 
 }
-nav {
-    display: flex;
+.container {
+    width: 1440px;
+    margin: 40px auto;
+}
+.header {
+
+    margin-top: 60px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+    display:flex;
+    width: 200px;
     justify-content: space-between;
 }
 
-nav .logo {
-position: absolute;
-width: 349px;
-height: 90px;
-left: 119px;
-top: 39px;
+.nav {
+        display:flex;
+        position:absolute;
+        top: 40px;
+        background-color:#FFF73A;
+        width: 72%;
+        height: 50px;
+        margin-left: 310px;
+    }
+.nav {
+   z-index: -1 ;
+
+    
+}
+.nav {
+    padding: 12px;
+    padding-left: 600px;
+    padding-right: 70px;
+    position: absolute;
+}
+
+.nav a :hover {
+    color: aqua;
 }
