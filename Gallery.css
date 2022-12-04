@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Amiko:wght@400;600;700&family=Andada+Pro:wght@400;600&family=Anek+Gujarati&family=Big+Shoulders+Inline+Text&family=Big+Shoulders+Stencil+Display&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+:root {
+    --yellow-color: #FFF73A;
+    --light-grey: #F7F7F7;
+    --white: #FFFFFF;
+    --black: #000000;
+    --grey-background: #D2D6DB;
+    --dark-grey: #505356;
+}
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    width: 1440px;
+   
+}
+.graphic-rectangle {
+position: absolute;
+width: 756px;
+height: 1034px;
+left: 0px;
+top: 0px;
+background: rgba(217, 217, 217, 0.2);
+}
+
+.graphic-rectangle-left{
+position: absolute;
+width: 157px;
+height: 661px;
+left: 0px;
+top: 366px;
+background:#FFFFFF
+}
+
+.graphic-rectangle-right {
+position: absolute;
+width: 107px;
+height: 870px;
+left: 1333px;
+top: 0px;
+background: #F7F7F7;
+}
+
+body {
+position: relative;
+width: 1440px;
+}
+
+.dotted-pic {
+position: absolute;
+width: 93px;
+height: 95px;
+left: 149px;
+top: 120px;
+}
+
+.nav a {
+    color: rgba(96, 96, 96, 1);
+    font-family: 'Amiko', sans-serif;
+    font-size: 20px;
+}
+.nav a:hover {
+    color: rgba(154, 156, 158, 1);
+    text-decoration: underline;
+}
+.dotted-grid-2 {
+    position: absolute;
+    width: 93px;
+    height: 95px;
+    left: 611px;
+    top: 683px; 
+}
+.container {
+    width: 1440px;
+    margin: 40px auto;
+}
+.header {
+
+    margin-top: 60px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+    display:flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.nav {
+        display:flex;
+        position:absolute;
+        top: 40px;
+        background-color:#FFF73A;
+        width: 72%;
+        height: 50px;
+        margin-left: 310px;
+    }
+.nav {
+   z-index: -1 ;
+
+    
+}
+.nav {
+    padding: 12px;
+    padding-left: 600px;
+    padding-right: 70px;
+    position: absolute;
+}
+
+.nav a :hover {
+    color: aqua;
+}
