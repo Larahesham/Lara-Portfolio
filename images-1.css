@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Amiko:wght@400;600;700&family=Andada+Pro:wght@400;600&family=Anek+Gujarati&family=Big+Shoulders+Inline+Text&family=Big+Shoulders+Stencil+Display&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+:root {
+    --yellow-color: #FFF73A;
+    --light-grey: #F7F7F7;
+    --white: #FFFFFF;
+    --black: #000000;
+    --grey-background: #D2D6DB;
+    --dark-grey: #505356;
+}
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    width: 1440px;
+   
+}
+.graphic-rectangle {
+position: absolute;
+width: 756px;
+height: 1034px;
+left: 0px;
+top: 0px;
+background:rgba(217, 217, 217, 0.2);
+}
+
+body {
+position: relative;
+width: 1440px;
+background-color:#F5F5F5
+}
+
+.nav a {
+    color: rgba(96, 96, 96, 1);
+    font-family: 'Amiko', sans-serif;
+    font-size: 20px;
+}
+.nav a:hover {
+    color: rgba(154, 156, 158, 1);
+    text-decoration: underline;
+}
+
+.container {
+    width: 1440px;
+    margin: 40px auto;
+}
+.header {
+    margin-top: 60px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+    display:flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.nav {
+        display:flex;
+        position:absolute;
+        top: 40px;
+        background-color:#FFF73A;
+        width: 72%;
+        height: 50px;
+        margin-left: 310px;
+    }
+.nav {
+   z-index: 1 ;
+
+    
+}
+.nav {
+    padding: 12px;
+    padding-left: 600px;
+    padding-right: 70px;
+    position: absolute;
+}
+.white-rectangle {
+position: absolute;
+width: 1260px;
+height: 938px;
+left: 97px;
+top: 129px;
+
+background: #FFFFFF;
+border-radius: 59px;
+}
+h2 {
+    position: absolute;
+    width: 457px;
+    height: 112px;
+    left: 227px;
+    top: 179px;
+    
+    font-family: 'Big Shoulders Stencil Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 77px;
+    
+    color: #000000;  
+}
+.small-rec {
+position: absolute;
+width: 5px;
+height: 53px;
+left: 619px;
+top: 195px;
+
+background: #FFF73A;
+z-index: 100;
+}
+.pic {
+    position: absolute;
+width: 1016px;
+height: 683px;
+left: 219px;
+top: 268px;
+}
+.close {
+    position: absolute;
+width: 54px;
+height: 54px;
+left: 1252px;
+top: 181px;
+}
+.close :hover {
+    opacity: 0.7;
+}
+.forward-1 {
+position: absolute;
+width: 121.77px;
+height: 121.77px;
+left: 1235px;
+top: 549px;
+}
+.forward-1 :hover {
+    opacity: 0.7;
+}
+.forward-2 {
+    position: absolute;
+    width: 121.77px;
+    height: 121.77px;
+    left: 1235px;
+    top: 549px;
+    }
+    .forward-2 :hover {
+        opacity: 0.7;
+    }
+    .forward-3 {
+        position: absolute;
+        width: 121.77px;
+        height: 121.77px;
+        left: 1235px;
+        top: 549px;
+        }
+        .forward-3 :hover {
+            opacity: 0.7;
+        }
+        .forward-4 {
+            position: absolute;
+            width: 121.77px;
+            height: 121.77px;
+            left: 1235px;
+            top: 549px;
+            }
+            .forward-4 :hover {
+                opacity: 0.7;
+            }
+        .back-4 {
+            position: absolute;
+            width: 123.13px;
+            height: 123.13px;
+            left: 96px;
+            top: 548px;
+        }
+.back-4 :hover {
+    opacity: 0.7;
+}
+.back-3 {
+    position: absolute;
+    width: 123.13px;
+    height: 123.13px;
+    left: 96px;
+    top: 548px;
+}
+.back-3 :hover {
+opacity: 0.7;
+}
+
+.back-2 {
+    position: absolute;
+    width: 123.13px;
+    height: 123.13px;
+    left: 96px;
+    top: 548px;
+}
+.back-2 :hover {
+opacity: 0.7;
+}

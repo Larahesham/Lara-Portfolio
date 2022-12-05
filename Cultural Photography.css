@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Amiko:wght@400;600;700&family=Andada+Pro:wght@400;600&family=Anek+Gujarati&family=Big+Shoulders+Inline+Text&family=Big+Shoulders+Stencil+Display&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+:root {
+    --yellow-color: #FFF73A;
+    --light-grey: #F7F7F7;
+    --white: #FFFFFF;
+    --black: #000000;
+    --grey-background: #D2D6DB;
+    --dark-grey: #505356;
+}
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    width: 1440px;
+   
+}
+.graphic-rectangle {
+position: absolute;
+width: 756px;
+height: 1034px;
+left: 0px;
+top: 0px;
+background:rgba(217, 217, 217, 0.2);
+}
+
+.graphic-rectangle-left{
+position: absolute;
+width: 157px;
+height: 661px;
+left: 0px;
+top: 366px;
+background:#FFFFFF
+}
+
+.graphic-rectangle-right {
+position: absolute;
+width: 107px;
+height: 870px;
+left: 1333px;
+top: 0px;
+background: #F7F7F7;
+}
+
+body {
+position: relative;
+width: 1440px;
+}
+
+.dotted-pic {
+position: absolute;
+width: 93px;
+height: 95px;
+left: 149px;
+top: 120px;
+z-index: 1;
+}
+
+.nav a {
+    color: rgba(96, 96, 96, 1);
+    font-family: 'Amiko', sans-serif;
+    font-size: 20px;
+}
+.nav a:hover {
+    color: rgba(154, 156, 158, 1);
+    text-decoration: underline;
+}
+.dotted-grid-2 {
+    position: absolute;
+    width: 93px;
+    height: 95px;
+    left: 709px;
+    top: 852px;
+    z-index: 1;
+}
+.container {
+    width: 1440px;
+    margin: 40px auto;
+}
+.header {
+
+    margin-top: 60px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+    display:flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.nav {
+        display:flex;
+        position:absolute;
+        top: 40px;
+        background-color:#FFF73A;
+        width: 72%;
+        height: 50px;
+        margin-left: 310px;
+    }
+.nav {
+   z-index: 1 ;
+
+    
+}
+.nav {
+    padding: 12px;
+    padding-left: 600px;
+    padding-right: 70px;
+    position: absolute;
+}
+.white-background {
+    position: absolute;
+width: 549px;
+height: 746px;
+left: 214px;
+top: 153px;
+
+background: #FFFFFF;
+}
+
+.grey-rectangle{
+
+    position: absolute;
+width: 555px;
+height: 746px;
+left: 756px;
+top: 153px;
+
+background: #F7F7F7;
+}
+.vector {
+    position: absolute;
+width: 231px;
+height: 241px;
+left: 93px;
+top: 96px;
+
+color:  #000000;
+z-index: -1;
+}
+
+h2 {
+position: absolute;
+width: 400px;
+height: 112px;
+left: 227px;
+top: 179px;
+font-family: 'Big Shoulders Stencil Display';
+font-style: normal;
+font-weight: 400;
+font-size: 52px;
+line-height: 77px;
+color: #000000;
+z-index: 1;
+}
+.yellow-rectangle {
+position: absolute;
+width: 124px;
+height: 7px;
+left: 230px;
+top: 258px;
+}
+.decoration {
+position: absolute;
+width: 277px;
+height: 12px;
+left: 264px;
+top: 327px;
+background: #F1F1F1;
+z-index: -0;
+}
+.decoration-2 {
+    position: absolute;
+    width: 274px;
+    height: 20px;
+    left: 629px;
+    top: 327px;
+    
+    background: rgba(217, 217, 217, 0.2);
+}
+.decoration-4 {
+    position: absolute;
+    width: 277px;
+    height: 23px;
+    left: 990px;
+    top: 913px;
+    
+    background: rgba(217, 217, 217, 0.2);
+}
+.yellow-rectangle-2 {
+position: absolute;
+width: 277px;
+height: 13px;
+left: 1047px;
+top: 905px;
+
+background: #FFF73A;
+z-index: 1;
+}
+.yellow-rec {
+    position: absolute;
+width: 277px;
+height: 13px;
+left: 223px;
+top: 761px;
+
+background: #FFF73A;
+}
+.natural {
+    position: absolute;
+    width: 350px;
+    height: 531px;
+    left: 246px;
+    top: 281px; 
+}
+p {
+    position: absolute;
+    width: 343px;
+    height: 77px;
+    left: 253px;
+    top: 821px;
+    
+
+font-family: 'Andada Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+}
+.divider {
+    position: absolute;
+    width: 5px;
+    height: 333px;
+    left: 616px;
+    top: 364px;
+
+background: #878787;
+}
+.streets {
+    position: absolute;
+    width: 325px;
+    height: 202px;
+    left: 646px;
+    top: 294px;
+}
+.streets :hover{
+    opacity: 0.7;
+}
+.cat {
+    position: absolute;
+    width: 325px;
+    height: 219px;
+    left: 646px;
+    top: 526px;
+}
+.cat:hover{
+    opacity: 0.7;
+}
+.bridge {
+    position: absolute;
+    width: 318px;
+    height: 202px;
+    left: 990px;
+    top: 293px;
+    
+}
+.bridge:hover{
+    opacity: 0.7;
+}
+.trees {
+    position: absolute;
+    width: 318px;
+    height: 219px;
+    left: 990px;
+    top: 526px;
+}
+.trees :hover{
+    opacity: 0.7;
+}

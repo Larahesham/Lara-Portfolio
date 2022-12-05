@@ -33,7 +33,7 @@ width: 756px;
 height: 1034px;
 left: 0px;
 top: 0px;
-background: rgba(217, 217, 217, 0.2);
+background:rgba(217, 217, 217, 0.2);
 }
 
 .graphic-rectangle-left{
@@ -65,6 +65,7 @@ width: 93px;
 height: 95px;
 left: 149px;
 top: 120px;
+z-index: 1;
 }
 
 .nav a {
@@ -80,8 +81,9 @@ top: 120px;
     position: absolute;
     width: 93px;
     height: 95px;
-    left: 611px;
-    top: 683px; 
+    left: 709px;
+    top: 852px;
+    z-index: 1;
 }
 .container {
     width: 1440px;
@@ -120,7 +122,247 @@ top: 120px;
     padding-right: 70px;
     position: absolute;
 }
+.white-background {
+    position: absolute;
+width: 549px;
+height: 746px;
+left: 214px;
+top: 153px;
 
-.nav a :hover {
-    color: aqua;
+background: #FFFFFF;
+}
+
+.grey-rectangle{
+
+    position: absolute;
+width: 555px;
+height: 746px;
+left: 756px;
+top: 153px;
+
+background: #F7F7F7;
+}
+.vector {
+    position: absolute;
+width: 231px;
+height: 241px;
+left: 93px;
+top: 96px;
+
+color:  #000000;
+z-index: -1;
+}
+h2 {
+position: absolute;
+width: 457px;
+height: 112px;
+left: 227px;
+top: 179px;
+font-family: 'Big Shoulders Stencil Display';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+color: #000000;
+z-index: 1;
+}
+.yellow-rectangle {
+position: absolute;
+width: 124px;
+height: 7px;
+left: 230px;
+top: 258px;
+}
+.dark-grey {
+position: absolute;
+width: 1068px;
+height: 383px;
+left: 249px;
+top: 317px;
+background: #505356;
+z-index: 1;
+}
+h3 {
+position: absolute;
+width: 400px;
+height: 53px;
+left: 272px;
+top: 337px;
+font-family: 'Abel';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 61px;
+color: #FFFFFF;
+z-index: 2;
+}
+.lines {
+position: absolute;
+width: 502px;
+height: 397px;
+left: 432px;
+top: 345px;
+z-index: 1;
+}
+p {
+position: absolute;
+width: 170px;
+height: 11px;
+left: 273px;
+top: 460px;
+
+font-family: 'Abel';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+
+color: #FFFFFF;
+z-index: 1;
+}
+h4 {
+    position: absolute;
+    width: 351px;
+    height: 22px;
+    left: 273px;
+    top: 485px;
+    
+    font-family: 'Andada Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #EFEFEF;
+    z-index: 2;
+    
+}
+.btn-light{
+position: absolute;
+width: 121px;
+height: 40px;
+left: 287px;
+top: 591px;
+
+font-family: 'Andada Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 18.83px;
+text-align: center;
+
+color: #000000;
+    z-index: 2;
+    }
+    .btn-light {
+        background-color: #FFF73A;
+            border-radius: 20px;
+            padding: 20px; 
+            width: 200px;
+            height: 60px; 
+    }
+    .btn-light:hover {
+        background-color: rgba(154, 156, 158, 1);
+        color: white;
+    }
+.frame {
+position: absolute;
+width: 192px;
+height: 72px;
+left: 432px;
+top: 670px;
+
+background: #606060;
+mix-blend-mode: hard-light;
+z-index: 2;
+}
+.camera {
+    position: absolute;
+width: 552px;
+height: 381px;
+left: 765px;
+top: 319px;
+z-index: 2;
+}
+.yel-rec {
+position: absolute;
+width: 243px;
+height: 40px;
+left: 683px;
+top: 722px;
+
+background: #FFF73A;
+z-index: 1;
+}
+.grey-rec {
+position: absolute;
+width: 277px;
+height: 23px;
+left: 735px;
+top: 750px;
+
+background: rgba(217, 217, 217, 0.2);
+}
+.More {
+position: absolute;
+width: 588px;
+height: 67px;
+left: 320px;
+top: 860px;
+
+font-family: 'Big Shoulders Stencil Display';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+color: #000000;
+}
+.yel-rec-2 {
+    position: absolute;
+    width: 277px;
+    height: 13px;
+    left: 640px;
+    top: 1130px;
+    background: #FFF73A;
+}
+.grey-rec-2 {
+position: absolute;
+width: 1200px;
+height: 200px;
+left: 140px;
+top: 1350px;
+background: #505356;
+z-index: 1;
+}
+.light-grey {
+    position: absolute;
+    width: 338px;
+    height: 309px;
+    left: 160px;
+    top: 1195px;
+    background: #F1F1F1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+.light-grey-1 {
+    position: absolute;
+    width: 338px;
+    height: 309px;
+    left: 570px;
+    top: 1195px;
+    background: #F1F1F1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+.light-grey-2 {
+    position: absolute;
+    width: 338px;
+    height: 309px;
+    left: 980px;
+    top: 1195px;
+    background: #F1F1F1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    z-index: 2;
 }
