@@ -67,23 +67,34 @@ left: 149px;
 top: 120px;
 z-index: 1;
 }
+.container-header {
+    display: flex;
+    align-items: center;
+    width: 1380px;
+    margin-left:auto;
+    margin-right: auto;
+    /* border: 2px solid blue; */
+}
 
+.container-header img {
+    /* border: 2px solid red; */
+    z-index: 10;
+    display: block;
+    position: relative;
+    left: 1px;
+}
 .nav a {
     color: rgba(96, 96, 96, 1);
     font-family: 'Amiko', sans-serif;
     font-size: 20px;
 }
-.nav a:hover {
-    color: rgba(154, 156, 158, 1);
-    text-decoration: underline;
-}
+
 .dotted-grid-2 {
     position: absolute;
     width: 93px;
     height: 95px;
-    left: 709px;
-    top: 852px;
-    z-index: 1;
+    left: 611px;
+    top: 683px; 
 }
 .container {
     width: 1440px;
@@ -97,30 +108,29 @@ z-index: 1;
     align-items: center;
 }
 .nav {
+    
+    background-color:#FFF73A;
+    padding: 20px;
+    width: 950px;
+    margin-right: 75px;
+    margin-left: 0px;
+}
+
+.links {
+    margin-left: auto;
+    width: 400px;
+    /* border: 2px solid green; */
     display:flex;
-    width: 200px;
     justify-content: space-between;
 }
 
-.nav {
-        display:flex;
-        position:absolute;
-        top: 40px;
-        background-color:#FFF73A;
-        width: 72%;
-        height: 50px;
-        margin-left: 310px;
-    }
-.nav {
-   z-index: 1 ;
 
-    
+.logo {
+    z-index: 1;
 }
-.nav {
-    padding: 12px;
-    padding-left: 600px;
-    padding-right: 70px;
-    position: absolute;
+.nav a:hover {
+    color: rgba(154, 156, 158, 1);
+    text-decoration: underline;
 }
 .white-background {
     position: absolute;
