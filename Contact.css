@@ -390,3 +390,20 @@ top: 1025px;
 .underline a {
 text-decoration: underline;
 }
+.rec-1-text p:hover{
+opacity: 0;
+}
+.rec-2-text p:hover{
+opacity: 0;
+}
+
+.rec-3-text p:hover{
+    opacity: 0;
+    }
+    .rec-4-text p:hover{
+        opacity: 0;
+        }
+        
+.x img:hover {
+opacity: 0.5;
+}

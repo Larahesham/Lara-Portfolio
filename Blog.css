@@ -585,3 +585,21 @@ background: rgba(217, 217, 217, 0.2);
 .underline a {
 text-decoration: underline;
 }
+.email p{
+position: absolute;
+width: 294px;
+height: 46px;
+left: 520px;
+top: 1952px;
+font-family: 'Andada Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 38px;
+color:  
+rgba(210, 214, 219, 1);
+
+}
+.email p:hover {
+opacity: 0;
+}
