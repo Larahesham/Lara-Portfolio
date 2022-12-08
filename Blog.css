@@ -582,3 +582,6 @@ left: 500px;
 top: 2110px;
 background: rgba(217, 217, 217, 0.2);
 }
+.underline a {
+text-decoration: underline;
+}

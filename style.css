@@ -274,3 +274,6 @@ top: 120px;
     color: rgba(154, 156, 158, 1);
     text-decoration: underline;
 }
+.underline a {
+    text-decoration: underline;
+}
